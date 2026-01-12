@@ -27,7 +27,7 @@ export const contactConfig = {
   address: {
     street: "Sisir Kota Batu",
     city: "Kota Batu",
-    province: "Nusa Tenggara Barat",
+    province: "Jawa Timur",
     postalCode: "65314",
     full: "Kota Batu , Jawa Timur 65314",
   },
