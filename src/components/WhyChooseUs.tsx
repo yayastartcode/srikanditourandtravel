@@ -1,28 +1,32 @@
-import { Shield, Users, DollarSign, Car } from "lucide-react"
-import { motion } from "motion/react"
+import { Shield, Users, DollarSign, Car } from "lucide-react";
+import { motion } from "motion/react";
 
 const features = [
   {
     icon: Shield,
     title: "Travel Resmi",
-    description: "Sebagai perusahaan rental mobil resmi, kami selalu menjamin keamanan, kenyamanan, dan kepercayaan setiap pelanggan."
+    description:
+      "Sebagai perusahaan rental mobil resmi, kami selalu menjamin keamanan, kenyamanan, dan kepercayaan setiap pelanggan.",
   },
   {
     icon: Users,
     title: "Pelayanan Profesional",
-    description: "Tim kami terlatih memberikan layanan profesional, ramah, cepat, dan selalu siap membantu setiap kebutuhan perjalanan."
+    description:
+      "Tim kami terlatih memberikan layanan profesional, ramah, cepat, dan selalu siap membantu setiap kebutuhan perjalanan.",
   },
   {
     icon: DollarSign,
     title: "Harga Kompetitif",
-    description: "Kami memiliki armada lengkap mulai City Car, MPV, SUV, Mini BUS, BUS, hingga kendaraan mewah untuk semua kebutuhan."
+    description:
+      "Kami memiliki armada lengkap mulai dari Avanza, Hiace Premio, Hiace Commuter dan Elf Long sesuai kebutuhan.",
   },
   {
     icon: Car,
     title: "Armada Lengkap",
-    description: "Kami menyediakan armada yang lengkap dan bervariasi, mulai dari City Car, MPV, SUV, Mini BUS, BUS hingga kendaraan mewah."
-  }
-]
+    description:
+      "Kami menyediakan armada yang lengkap dan bervariasi, mulai dari Avanza, Hiace Premio, Hiace Commuter dan Elf Long sesuai kebutuhan.",
+  },
+];
 
 export default function WhyChooseUs() {
   return (
@@ -45,7 +49,7 @@ export default function WhyChooseUs() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => {
-            const Icon = feature.icon
+            const Icon = feature.icon;
             return (
               <motion.div
                 key={index}
@@ -67,10 +71,10 @@ export default function WhyChooseUs() {
                   {feature.description}
                 </p>
               </motion.div>
-            )
+            );
           })}
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -5,24 +5,21 @@ import { useState, useEffect } from "react";
 const slides = [
   {
     id: 1,
-    image:
-      "https://kemenpar.go.id/_next/image?url=https%3A%2F%2Fapi.kemenpar.go.id%2Fstorage%2Fapp%2Fuploads%2Fpublic%2F685%2Fa28%2F726%2F685a287262176605968863.jpeg&w=3840&q=75",
+    image: "images/srhero1.jpeg",
     title: "Perjalanan Aman & Nyaman",
-    subtitle: "Jelajahi indahnya Lombok bersama kami",
+    subtitle: "Rencanakan perjalanan anda dengan Srikandi Tour & Travel",
   },
   {
     id: 2,
-    image:
-      "https://images.unsplash.com/photo-1546446587-f0af2037eaa1?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "images/srhero2.jpeg",
     title: "Perjalanan Aman & Nyaman",
-    subtitle: "Jelajahi indahnya Lombok bersama kami",
+    subtitle: "Rencanakan perjalanan anda dengan Srikandi Tour & Travel",
   },
   {
     id: 3,
-    image:
-      "https://lombok-airport.co.id/frontend/uploads/defaults/rUyHcE20241204080441.jpg",
+    image: "images/srhero3.jpeg",
     title: "Perjalanan Aman & Nyaman",
-    subtitle: "Jelajahi indahnya Lombok bersama kami",
+    subtitle: "Rencanakan perjalanan anda dengan Srikandi Tour & Travel",
   },
 ];
 

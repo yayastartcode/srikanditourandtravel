@@ -3,6 +3,7 @@ import HeroSlider from './components/HeroSlider'
 import WhyChooseUs from './components/WhyChooseUs'
 import CarRental from './components/CarRental'
 import TravelPackages from './components/TravelPackages'
+import Gallery from './components/Gallery'
 import FAQ from './components/FAQ'
 import CustomTripCTA from './components/CustomTripCTA'
 import Contact from './components/Contact'
@@ -17,6 +18,7 @@ function App() {
       <WhyChooseUs />
       <CarRental />
       <TravelPackages />
+      <Gallery />
       <FAQ />
       <CustomTripCTA />
       <Contact />

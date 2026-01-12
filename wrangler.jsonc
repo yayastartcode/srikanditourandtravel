@@ -1,6 +1,6 @@
 {
   // Wrangler configuration for Cloudflare Pages deployment
-  "name": "mandalikatour",
+  "name": "srikanditour",
   "compatibility_date": "2025-12-11",
   "assets": {
     "directory": "./dist"

@@ -87,11 +87,12 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Layanan Kami</h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">Rental Mobil Harian</li>
-              <li className="text-gray-400">Paket Wisata Lombok</li>
-              <li className="text-gray-400">Antar Jemput Bandara</li>
-              <li className="text-gray-400">Sewa Mobil + Driver</li>
-              <li className="text-gray-400">Perjalanan Kustom</li>
+              <li className="text-gray-400">Paket Wisata Semua Tujuan</li>
+              <li className="text-gray-400">Paket Wisata 3 Negara</li>
+              <li className="text-gray-400">Voucher Hotel & Villa</li>
+              <li className="text-gray-400">Wisata Petik Buah</li>
+              <li className="text-gray-400">Adventure & MICE</li>
+              <li className="text-gray-400">Kunjungan Edukasi</li>
             </ul>
           </div>
 
@@ -125,7 +126,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400">
             &copy; {currentYear} {contactConfig.company.name}. All rights
-            reserved. | Designed with ❤️ in Lombok
+            reserved.
           </p>
         </div>
       </div>

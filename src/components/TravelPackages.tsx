@@ -4,27 +4,51 @@ import { getWhatsAppLink } from "@/config/contact";
 const packages = [
   {
     id: 1,
-    name: "Sembalun",
+    name: "Tour Batu - Malang",
     image:
-      "https://indonesia.go.id/assets/upload/headline/1558681567_Sembalun_thumb.jpg",
+      "https://youtzmedia.id/uploads/artikel/origins/f9c5919294dd8126741c10070df10e10.jpg",
     description:
-      "Nikmati keindahan alam pegunungan Sembalun dengan pemandangan hijau yang mempesona dan udara sejuk.",
+      "Jelajahi keindahan Kota Batu dan Malang dengan wisata alam, kebun apel, dan kuliner khas yang menggugah selera.",
   },
   {
     id: 2,
-    name: "Gili",
+    name: "Tour Jogja",
     image:
-      "https://cdn.prod.website-files.com/66fab24d6dde4d79b3b50865/67864dddb99349504ff2ee3f_Gili%20Islands.webp",
+      "https://visitingjogja.jogjaprov.go.id/en/wp-content/uploads/2020/11/tugu-jogja.jpg",
     description:
-      "Jelajahi keindahan pulau-pulau Gili dengan pantai pasir putih, air laut jernih, dan kehidupan bawah laut yang menakjubkan.",
+      "Nikmati pesona budaya Yogyakarta dengan Candi Borobudur, Keraton, Malioboro, dan kuliner gudeg yang legendaris.",
   },
   {
     id: 3,
-    name: "Mandalika Circuit",
+    name: "Tour Bromo",
     image:
-      "https://www.indonesia.travel/contentassets/94a866f3e6244488b9c3641598ac0f8b/5-interesting-facts-about-pertamina-mandalika-international-street-circuit.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg",
     description:
-      "Rasakan sensasi berkendara di sirkuit internasional Mandalika dan nikmati keindahan pantai Mandalika yang memukau.",
+      "Saksikan keajaiban sunrise Gunung Bromo dengan lautan pasir yang luas dan pemandangan kawah yang spektakuler.",
+  },
+  {
+    id: 4,
+    name: "Tour Bali",
+    image:
+      "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/olvu6sgb3dcdjwlcpts3.jpg",
+    description:
+      "Rasakan keindahan Pulau Dewata dengan pantai eksotis, pura megah, sawah terasering, dan budaya yang memukau.",
+  },
+  {
+    id: 5,
+    name: "Tour Lombok",
+    image:
+      "https://www.indonesia.travel/contentassets/3f4346581ea04894902cd0ec8fa25057/lombok_cina_2.jpg",
+    description:
+      "Jelajahi keindahan Lombok dengan pantai Gili yang menawan, air terjun Sendang Gile, dan pesona Gunung Rinjani.",
+  },
+  {
+    id: 6,
+    name: "Tour Labuan Bajo",
+    image:
+      "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/rv76yqukp2hey0fckh99.jpg",
+    description:
+      "Temukan surga tersembunyi Labuan Bajo dengan Komodo, Pink Beach, dan keindahan bawah laut yang luar biasa.",
   },
 ];
 
@@ -86,6 +110,48 @@ export default function TravelPackages() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mt-16 bg-white rounded-2xl p-8 shadow-lg"
+        >
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            Kami juga melayani:
+          </h3>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-700">
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              Paket wisata semua tujuan
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              Paket wisata 3 Negara konsorsium / privat
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              Voucher Hotel dan Villa
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              Petik apel, strawberry, jeruk dan jambu
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              Adventure
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              MICE
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-teal-600 rounded-full"></span>
+              Paket kunjungan edukasi
+            </li>
+          </ul>
+        </motion.div>
       </div>
     </section>
   );

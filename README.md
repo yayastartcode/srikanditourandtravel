@@ -1,4 +1,4 @@
-# Mandalika Tour - Tour Company Website
+# Srikandi Tour and Travel- Tour Company Website
 
 A modern, responsive tour company website built with the latest web technologies.
 
@@ -30,11 +30,13 @@ A modern, responsive tour company website built with the latest web technologies
 ### Installation
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Run the development server:
+
 ```bash
 npm run dev
 ```
@@ -84,10 +86,10 @@ const slides = [
     id: 1,
     image: "your-image-url",
     title: "Your Title",
-    subtitle: "Your subtitle"
+    subtitle: "Your subtitle",
   },
   // Add more slides...
-]
+];
 ```
 
 ### Adding Shadcn UI Components

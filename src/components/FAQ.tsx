@@ -5,33 +5,33 @@ import { useState } from "react";
 const faqs = [
   {
     id: 1,
-    question: "Rute mana saja yang dilayani Mandalika Tour Lombok?",
+    question: "Destinasi mana saja yang dilayani Srikandi Tour?",
     answer:
-      "Kami melayani berbagai rute di Lombok termasuk antar jemput bandara, perjalanan ke Gili Trawangan, Gili Meno, Gili Air, Sembalun, Senggigi, Kuta Mandalika, dan destinasi wisata lainnya di seluruh Lombok.",
+      "Kami melayani berbagai destinasi wisata populer termasuk Batu-Malang, Jogja, Bromo, Bali, Lombok, Labuan Bajo, serta paket wisata 3 Negara konsorsium/privat dan semua tujuan lainnya sesuai permintaan.",
   },
   {
     id: 2,
-    question: "Apakah bisa antar jemput sampai alamat?",
+    question: "Apakah tersedia paket wisata untuk rombongan atau perusahaan?",
     answer:
-      "Ya, kami menyediakan layanan antar jemput door-to-door. Anda dapat dijemput dari hotel, bandara, pelabuhan, atau alamat manapun di area Lombok dan diantar ke tujuan yang Anda inginkan.",
+      "Ya, kami menyediakan paket MICE (Meeting, Incentive, Convention, Exhibition) untuk kebutuhan perusahaan, serta paket kunjungan edukasi untuk sekolah dan institusi pendidikan.",
   },
   {
     id: 3,
-    question: "Fasilitas apa saja yang didapat selama perjalanan?",
+    question: "Layanan apa saja yang tersedia selain paket wisata?",
     answer:
-      "Setiap perjalanan sudah termasuk driver berpengalaman, BBM, AC, audio system, dan asuransi perjalanan. Untuk paket tertentu, kami juga menyediakan air mineral dan tour guide profesional.",
+      "Selain paket wisata, kami juga menyediakan voucher Hotel dan Villa, paket Adventure, serta wisata petik buah seperti apel, strawberry, jeruk, dan jambu.",
   },
   {
     id: 4,
-    question: "Bagaimana cara memesan tiket?",
+    question: "Bagaimana cara memesan paket wisata?",
     answer:
-      "Anda dapat memesan melalui WhatsApp, telepon, atau website kami. Cukup pilih kendaraan yang diinginkan, tentukan tanggal dan rute perjalanan, lalu lakukan konfirmasi pembayaran. Tim kami akan segera memproses pesanan Anda.",
+      "Anda dapat memesan melalui WhatsApp atau telepon. Pilih paket yang diinginkan, tentukan tanggal keberangkatan dan jumlah peserta, lalu lakukan konfirmasi pembayaran. Tim kami akan segera memproses pesanan Anda.",
   },
   {
     id: 5,
-    question: "Apakah bisa menyewa mobil untuk rombongan wisata?",
+    question: "Apakah bisa request paket wisata custom?",
     answer:
-      "Tentu saja! Kami memiliki armada lengkap mulai dari city car hingga big bus 50 seat. Sangat cocok untuk rombongan keluarga, perusahaan, atau grup wisata. Hubungi kami untuk mendapatkan penawaran khusus untuk rombongan.",
+      "Tentu saja! Kami melayani paket wisata semua tujuan sesuai keinginan Anda. Hubungi kami untuk konsultasi dan mendapatkan penawaran terbaik untuk perjalanan impian Anda.",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function FAQ() {
                 <motion.div
                   animate={{ rotate: openId === faq.id ? 180 : 0 }}
                   transition={{ duration: 0.3 }}
-                  className="flex-shrink-0"
+                  className="shrink-0"
                 >
                   <ChevronDown size={24} className="text-gray-600" />
                 </motion.div>

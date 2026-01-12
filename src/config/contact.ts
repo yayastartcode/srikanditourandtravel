@@ -4,53 +4,54 @@
 export const contactConfig = {
   // WhatsApp Configuration
   whatsapp: {
-    number: "6287780797042", // Format: country code + number (no + or spaces)
-    defaultMessage: "Halo, saya ingin merencanakan perjalanan kustom di Lombok",
+    number: "6281235611031", // Format: country code + number (no + or spaces)
+    defaultMessage:
+      "Halo, saya ingin merencanakan perjalanan kustom dengan Srikandi Tour and Travel",
   },
 
   // Phone Numbers
   phone: {
-    primary: "+62 877-8079-7042",
+    primary: "+6281235611031",
     secondary: "+62",
-    primaryRaw: "+6287780797042", // For tel: links
+    primaryRaw: "+6281235611031", // For tel: links
     secondaryRaw: "+6281",
   },
 
   // Email Addresses
   email: {
-    info: "info@mandalikatour.com",
-    booking: "booking@mandalikatour.com",
+    info: "info@srikanditourandtravel.com",
+    booking: "booking@srikanditourandtravel.com",
   },
 
   // Physical Address
   address: {
-    street: "Merembu, Kec. Labuapi,",
-    city: "Lombok",
+    street: "Sisir Kota Batu",
+    city: "Kota Batu",
     province: "Nusa Tenggara Barat",
-    postalCode: "83511",
-    full: "Kabupaten Lombok Barat, Nusa Tenggara Bar 83511",
+    postalCode: "65314",
+    full: "Kota Batu , Jawa Timur 65314",
   },
 
   // Social Media Links
   social: {
-    facebook: "https://facebook.com/mandalikatour",
-    instagram: "https://instagram.com/mandalikatour",
-    twitter: "https://twitter.com/mandalikatour",
+    facebook: "https://facebook.com/srikanditourandtravel",
+    instagram: "https://instagram.com/srikanditourandtravel",
+    twitter: "https://twitter.com/srikanditourandtravel",
   },
 
   // Google Maps Embed URL
   // Get this from: https://www.google.com/maps -> Share -> Embed a map
   maps: {
     embedUrl:
-      "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3944.8287600533013!2d116.15467831!3d-8.61243359!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dcdb926f43e0d9d%3A0x1f1a3b79f34b0d6e!2sThe%20Mandalika%20Rent%20Car!5e0!3m2!1sen!2sid!4v1765425111164!5m2!1sen!2sid",
+      "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3952.2038849179517!2d112.52551607500583!3d-7.873722992148506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwNTInMjUuNCJTIDExMsKwMzEnNDEuMSJF!5e0!3m2!1sid!2sid!4v1768173357446!5m2!1sid!2sid",
   },
 
   // Company Information
   company: {
-    name: "Mandalika Tour Lombok",
-    tagline: "Perusahaan rental mobil terpercaya di Lombok",
+    name: "Srikandi Tour and Travel",
+    tagline: "Perusahaan Tour & Travel Terpercaya di Kota Batu Malang",
     description:
-      "Perusahaan rental mobil terpercaya di Lombok dengan layanan profesional dan armada lengkap.",
+      "Perusahaan Tour & Travel Terpercaya di Kota Batu Malang dengan layanan profesional dan armada lengkap.",
   },
 };
 
