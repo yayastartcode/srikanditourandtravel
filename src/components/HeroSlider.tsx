@@ -17,7 +17,7 @@ const slides = [
   },
   {
     id: 3,
-    image: "images/srhero3.jpeg",
+    image: "images/gallery/srgl2.jpeg",
     title: "Perjalanan Aman & Nyaman",
     subtitle: "Rencanakan perjalanan anda dengan Srikandi Tour & Travel",
   },
