@@ -51,7 +51,7 @@ export default function CarRental() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Sewa Mobil Lombok
+            Sewa Mobil Srikandi Tour and Travel
           </h2>
         </motion.div>
 
